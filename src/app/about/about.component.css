@@ -1,0 +1,41 @@
+.aboutComponentwrapper{
+    /* margin-left: 270px; */
+    background-color: #fff;
+}
+
+.pageHeading{
+    font-size: 4rem;
+    /* padding: 20px; */
+    color: #56BBF1;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* margin-left: 450px; */
+    /* text-align: center; */
+    /* background-color: #fff; */
+}
+
+.profile-card{
+    background-color: #d1d1d1;
+    color: #444444;
+    /* display: block; */
+    margin-bottom: 50px;
+    transition: transform .2s;
+}
+
+.profile-long-card{
+    background-color: #d1d1d1;
+    color: #444444;
+    display: block;
+    margin-bottom: 50px;
+    /* margin-left: 100px; */
+    transition: transform .2s;
+}
+
+.profile-card:hover {
+    transform: scale(1.2);
+  }
+
+  .profile-long-card:hover {
+    transform: scale(1.2);
+  }

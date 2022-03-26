@@ -1,0 +1,31 @@
+<div class="sidebarDiv">
+    <!-- <img src="../../assets/img/ranga_logo2.png" width="250px" > -->
+    <div class="sidebarHeading">Ranga Sai</div>
+    <br><br>
+    <div class="container">
+        <img class="person_image center" src="../../assets/img/ranga.jpg">
+        <div class="middle">
+          <div class="text">Ranga Sai Pusuluri</div>
+        </div>
+      </div>
+      <br>
+
+    <!-- <ul>
+      <li routerlinkActive="active" *ngFor="let section of Sections">
+        <a [routerLink]="[section.path]">
+          <i class="material-icons">{{section.sectionIcon}}</i>
+          {{section.sectionName}}
+        </a>
+      </li>
+    </ul> -->
+      <mat-nav-list>
+        <!-- <mat-list-option *ngFor="let section of Sections" [value]="section.sectionName" > -->
+            
+          <a mat-list-item href="" [routerLink]="[section.path]" [fragment]="section.sectionIdentifier" routerLinkActive="active" *ngFor="let section of Sections">
+            <div class="sidebarListItem" [routerLink]="[section.path]" routerLinkActive="active">
+            <mat-icon aria-hidden="false" aria-label="section icon">{{section.sectionIcon}}</mat-icon>&nbsp;
+             {{section.sectionName}}</div></a>
+            
+        <!-- </mat-list-option> -->
+      </mat-nav-list>
+</div>

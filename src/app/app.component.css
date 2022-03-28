@@ -10,9 +10,34 @@ mat-nav-list mat-list-item-content{
 .sectionComponent{
   margin-left: 270px;
   /* background-color: #F0F0F0; */
-  height: 100%;
   /* border: thick solid gray; */
   overflow-x: hidden;
-  overflow-y: hidden
-;
+  overflow-y: hidden;
 }
+
+
+/* .aboutComponentwrapper{
+	background-color: #f1f1f1;
+  margin-left: 10px;
+}
+
+.pageHeading{
+	font-size: 4rem;
+	color: #444444;
+	padding: 20px;
+	margin-top: 20px;
+	text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  	transition: text-decoration-color 700ms;
+}
+
+#aboutWrapperId:hover > #aboutPageHeadingWrapperId {
+	text-decoration-color: rgb(78, 131, 201);
+	color: #222222;
+
+} 
+
+.pageContent{
+	margin: 30px;
+	margin-top: 0px;
+	padding: 30px;
+} */

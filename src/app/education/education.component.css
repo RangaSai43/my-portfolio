@@ -1,0 +1,55 @@
+.educationComponentwrapper{
+	background-color: #f1f1f1;
+    margin-left: 15px;
+	min-height: 100%;
+	overflow: hidden !important;
+	min-height: 100vh;
+
+}
+
+
+.pageHeading{
+	font-size: 4rem;
+	color: #444444;
+	padding: 20px;
+	margin-top: 20px;
+	text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  	transition: text-decoration-color 700ms;
+}
+
+#educationWrapperId:hover > #educationPageHeadingWrapperId {
+	text-decoration-color: rgb(78, 131, 201);
+	color: #222222;
+
+} 
+
+.pageContent{
+	margin: 30px;
+	margin-top: 0px;
+	padding: 30px;
+}
+
+table{
+	width: 95%;
+	background-color: #d1d1d1;
+	color: #444444;
+}
+td,th{
+	color: #222222;
+}
+.matrow:hover{
+	background-color: #c1c1c1;
+
+}
+
+.table-footer{
+	background-color: #92ccb1;
+}
+
+::ng-deep .mat-sort-header-arrow {
+    color: #000;
+}
+
+mat-cell{
+	color: #444;
+}

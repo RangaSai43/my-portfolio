@@ -78,7 +78,7 @@
     opacity: 1;
     color: white;
     border-right-style: solid;
-    border-right-color: coral;
+    /* border-right-color: coral; */
     border-right-width: 10px;
     /* border-style: inset; */
     animation: colorchange 2s infinite;
@@ -104,6 +104,8 @@ mat-nav-list mat-list-item-content{
   a{
     text-decoration: none;
     text-align: center;
+    border-bottom: 0.1px solid lightgray;
+
   }
 
 .sidebarListItem mat-icon{
@@ -129,7 +131,7 @@ mat-nav-list mat-list-item-content{
 
 @keyframes colorchange {
   from {background-color: #F0A500;border-right-color:#B3A24D}
-  to {background-color: #B3A24D;color: #F9F1F6;border-right-color:#847BC6}
+  to {background-color: #B3A24D;color: #F9F1F6;border-right-color:#B3A24D}
 }
 
 /* ul{

@@ -1,6 +1,8 @@
-<div class="aboutComponentwrapper">
-    <div class="pageHeading col-md-3 col-md-offset-5 col-sm-7 col-sm-offset-3">About me</div>
-    <div class="pageContent">
+<div class="aboutComponentwrapper col-md-12" id="aboutWrapperId">
+    <div class="pageHeading col-md-3 col-md-offset-5 col-sm-7 col-sm-offset-3" id="aboutPageHeadingWrapperId">
+     About me
+    </div>
+    <div class="pageContent col-md-12">
         <!-- Name card -->
           <mat-card class=" profile-card col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
             <mat-card-subtitle style="color: black;">Name</mat-card-subtitle>
@@ -26,17 +28,17 @@
 
           <mat-card class="profile-long-card col-md-8 col-md-offset-2 col-sm-7 col-sm-offset-3">
             <mat-card-subtitle style="color: black;">Career Objective</mat-card-subtitle>
-            <mat-card-title>{{career_objective}}</mat-card-title>
+            <mat-card-title style="font-size: 2.1rem;">{{career_objective}}</mat-card-title>
             <mat-divider inset></mat-divider>
           </mat-card>
 
           <mat-card class="profile-long-card col-md-8 col-md-offset-2 col-sm-7 col-sm-offset-3">
             <mat-card-subtitle style="color: black;">Mail ID</mat-card-subtitle>
-            <mat-card-title><a href=mailto:rangadu199@gmail.com>{{mail_id}}</a></mat-card-title>
+            <mat-card-title><a href="mailto:rangadu199@gmail.com">{{mail_id}}</a></mat-card-title>
             <mat-divider inset></mat-divider>
           </mat-card>
           
-          <hr>
+          <hr class="col-md-8"> 
           <p class="col-md-12 col-sm-12">
             <mat-icon aria-hidden="false" aria-label="section icon" style="vertical-align: middle; color: lightcoral;">warning</mat-icon>&nbsp;
             For furthur info please refer to the other sections through sidebar</p>

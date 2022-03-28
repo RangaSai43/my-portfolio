@@ -1,41 +1,60 @@
 .aboutComponentwrapper{
-    /* margin-left: 270px; */
-    background-color: #fff;
+	/* margin-left: 270px; */
+	background-color: #f1f1f1;
+	margin-left: 15px;
 }
 
 .pageHeading{
-    font-size: 4rem;
-    /* padding: 20px; */
-    color: #56BBF1;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    /* margin-left: 450px; */
-    /* text-align: center; */
-    /* background-color: #fff; */
+	font-size: 4rem;
+	/* padding: 20px; */
+	color: #444444;
+	padding: 20px;
+	margin-top: 20px;
+	/* margin-left: 450px; */
+	/* text-align: center; */
+	/* background-color: #fff; */
+	text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  	transition: text-decoration-color 700ms;
+}
+
+#aboutWrapperId:hover > #aboutPageHeadingWrapperId {
+	text-decoration-color: rgb(78, 131, 201);
+	color: #222222;
+
+	/* text-decoration: underline;*/
+} 
+
+.pageContent{
+	/* background-color: #ddd; */
+	margin: 30px;
+	margin-top: 0px;
+	padding: 30px;
 }
 
 .profile-card{
-    background-color: #d1d1d1;
-    color: #444444;
-    /* display: block; */
-    margin-bottom: 50px;
-    transition: transform .2s;
+	background-color: #d1d1d1;
+	color: #444444;
+	/* display: block; */
+	margin-bottom: 50px;
+	transition: transform .2s;
 }
 
 .profile-long-card{
-    background-color: #d1d1d1;
-    color: #444444;
-    display: block;
-    margin-bottom: 50px;
-    /* margin-left: 100px; */
-    transition: transform .2s;
+	background-color: #d1d1d1;
+	color: #444444;
+	display: block;
+	margin-bottom: 50px;
+	/* margin-left: 100px; */
+	transition: transform .2s;
 }
 
 .profile-card:hover {
-    transform: scale(1.2);
+	transform: scale(1.1);
+	background-color: #e1e1e1;
   }
 
   .profile-long-card:hover {
-    transform: scale(1.2);
+	transform: scale(1.1);
+	background-color: #e1e1e1;
+
   }

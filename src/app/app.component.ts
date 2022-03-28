@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
-
+/*
+ Author : Ranga Sai Pusuluri
+*/
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

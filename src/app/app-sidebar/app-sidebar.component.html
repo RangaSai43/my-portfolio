@@ -22,9 +22,11 @@
         <!-- <mat-list-option *ngFor="let section of Sections" [value]="section.sectionName" > -->
             
           <a mat-list-item href="" [routerLink]="[section.path]" [fragment]="section.sectionIdentifier" routerLinkActive="active" *ngFor="let section of Sections">
-            <div class="sidebarListItem" [routerLink]="[section.path]" routerLinkActive="active">
+            <div class="sidebarListItem col-md-10 col-md-offset-0.5" [routerLink]="[section.path]" routerLinkActive="active">
             <mat-icon aria-hidden="false" aria-label="section icon">{{section.sectionIcon}}</mat-icon>&nbsp;
-             {{section.sectionName}}</div></a>
+             {{section.sectionName}}</div>
+            <hr>
+            </a>
             
         <!-- </mat-list-option> -->
       </mat-nav-list>

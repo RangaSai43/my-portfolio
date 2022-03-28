@@ -1,0 +1,61 @@
+<div class="educationComponentwrapper col-md-12" id="educationWrapperId" style="overflow: hidden;">
+    <div class="pageHeading col-md-3 col-md-offset-5 col-sm-7 col-sm-offset-3" id="educationPageHeadingWrapperId">
+     Education
+    </div>
+    <div class="pageContent col-md-12">
+      <!--Mat Table -->
+      <table mat-table [dataSource]="dataSource" matSort matSortActive="year" 
+        matSortDirection="desc"
+        class="mat-elevation-z8">
+
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            Name
+          </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+          <td mat-footer-cell *matFooterCellDef> 
+            <mat-icon aria-hidden="false" aria-label="section icon" style="vertical-align: middle;">info</mat-icon>
+            &nbsp;There is no gap in education
+          </td>
+
+        </ng-container>
+
+        <ng-container matColumnDef="college">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            College
+          </th>
+          <td mat-cell *matCellDef="let element"> {{element.college}} </td>
+          <td mat-footer-cell *matFooterCellDef> </td>
+
+        </ng-container>
+
+        <ng-container matColumnDef="year">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            Passed out 
+          </th>
+          <td mat-cell *matCellDef="let element"> {{element.year}} </td>
+          <td mat-footer-cell *matFooterCellDef> </td>
+
+        </ng-container>
+
+        <ng-container matColumnDef="percentage">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>
+            Percentage
+          </th>
+          <td mat-cell *matCellDef="let element"> {{element.percentage}} </td>
+          <td mat-footer-cell *matFooterCellDef> </td>
+
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row class="matrow" *matRowDef="let row; columns: displayedColumns;"></tr>
+
+        <tr mat-footer-row *matFooterRowDef="displayedColumns; sticky: true" class="table-footer"></tr>
+      </table>
+
+          <hr class="col-md-8"> 
+          <p class="col-md-12 col-sm-12">
+            <mat-icon aria-hidden="false" aria-label="section icon" style="vertical-align: middle; color: lightcoral;">warning</mat-icon>&nbsp;
+            For furthur info please refer to the other sections through sidebar</p>
+    </div>
+</div>

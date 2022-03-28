@@ -13,6 +13,8 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import {MatCardModule} from '@angular/material/card';
+import { MatSortModule } from '@angular/material/sort';
+import { EducationComponent } from './education/education.component';
 
 
 
@@ -21,7 +23,8 @@ import {MatCardModule} from '@angular/material/card';
     AppComponent,
     AppSidebarComponent,
     PortfolioComponentComponent,
-    AboutComponent
+    AboutComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import {MatCardModule} from '@angular/material/card';
     MatListModule,
     MatIconModule,
     MatTableModule,
-    MatCardModule
+    MatCardModule,
+    MatSortModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
